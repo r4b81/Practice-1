@@ -1,0 +1,273 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.header{
+    background: #3D5B99;
+    padding: 5px 0;
+}
+.header::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.container{
+    margin: auto;
+    width: 72%;
+}
+.logo-area{
+    width: 30%;
+    float: left;
+}
+.login-area{
+    width: 70%;
+    float: left;
+}
+.login-area form{
+    float: right;
+}
+.login-area label,
+.login-area input{
+    display: block;
+}
+.login-area .email,
+.login-area .password,
+.login-area .loginbtn{
+    float: left;
+}
+.logo-area img{
+    padding-top: 25px;
+    padding-bottom: 8px;
+}
+.login-area .email,
+.login-area .password{
+    margin-right: 16px;
+}
+.login-area label{
+    color: #ffffff;
+    font-size: 12.5px;
+    font-weight: 300;
+    padding-top: 7px;
+}
+.login-area .password a{
+    color: #baacff;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: 300;
+    padding: 0 4px;
+}
+.login-area input{
+    margin-top: 5px;
+    border: 1px solid #1d2a5b;
+    padding-bottom: 4px;
+}
+.loginbtn input{
+    margin-top: 29px;
+background: #4c6caa;
+border: 1px solid #1a418e;
+color: #ffffff;
+font-weight: 600;
+font-size: 12px;
+padding: 4px;
+}
+.loginbtn input:hover{
+    background: #365899;
+}
+/* -----------main section------------- */
+.mainsection{
+    background: linear-gradient(white, #D3D8E8);
+}
+.mainsection::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.rigthside{
+    width: 60%;
+    float: left;
+}
+.rigthside img{
+    width: 100%;
+}
+.leftside{
+    width: 40%;
+    float: left;
+}
+.rigthside p{
+    font-weight: 700;
+    font-size: 19px;
+    width: 78%;
+    margin-top: 42px;
+    margin-bottom: 0px;
+    color: #0E385F;
+    line-height: 1.5;
+}
+.leftside h2{
+    font-size: 36px;
+    color: #333333;
+    margin: 20px 0 8px 0;
+}
+.leftside p{
+    color: #333333;
+    margin: 0;
+    font-weight: 400;
+    margin-bottom: 23px;
+    font-size: 19px;
+}
+.leftside input{
+    padding: 8px 10px;
+    font-size: 18px;
+    border: 1px solid #bdc7d8;
+    border-radius: 5px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+}
+.leftside .wd{
+    width: 93%;
+}
+.fullname{
+    width: 100%;
+}
+.fullname input{
+    width: 45.7%;
+}
+.birthday h4,
+.gender h4,
+.some-text p{
+    margin: 12px 0 8px 0;
+    color: #90949C;
+}
+.birth-date {
+    overflow: hidden;
+}
+.birth-date select{
+    padding: 6px;
+    border: 1px solid #bdc7d8;
+    float: left;
+}
+.gender-option label{
+    color: #1d2129;
+}
+.side-icon{
+    width: 16px;
+    height: 16px;
+    background: url(../images/DQDvQ2X3Nby.png);
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: 0px -236px;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+.side-icon-2{
+    width: 16px;
+    height: 16px;
+    background: url(../images/DQDvQ2X3Nby.png);
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: 0px -236px;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+.some-text p{
+    font-size: 11px;
+    width: 290px;
+}
+.signup-btn{
+    color: #fff;
+    background: linear-gradient(#67ae55, #578843);
+    width: 192px;
+    background-color: #69a74e;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #3b6e22 #3b6e22 #2c5115 !important;
+    margin-top: 10px;
+    margin-bottom: 10px !important;
+
+}
+.some-text-2 p{
+    font-size: 13px;
+    font-weight: bold;
+    color: #90949C;
+    margin: 25px 0;
+}
+.container a{
+    text-decoration: none;
+    color: #385898;
+}
+.container a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    padding-top: 50px;
+    padding-bottom: 12px;
+    background-color: #ffffff;
+}
+.langu span{
+    color: rgb(121, 120, 120);
+}
+.langu ul{
+    margin: 0;
+    padding: 0;
+}
+.langu ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+.footerlink ul{
+    margin: 0;
+    padding: 0;
+}
+.footerlink ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 13px;
+}
+.copy{
+    color: rgb(121, 120, 120);
+    font-size: 11px;
+    margin-top: 22px;
+}
+.borderline{
+    border-bottom: 1px solid rgb(216, 217, 219);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.appdownload{
+    background: #fffbe2;
+    color: #3b59b0;
+    font-size: 13px;
+    overflow: hidden;
+    display: none;
+}
+
+.appdownload img{
+    float: left;
+    width: 18px;
+    margin: 7px 7px 8px 15px;
+}
+.appdownload span{
+    float: left;
+    margin-top: 14px;
+}
+.m-btn-cna{
+    display: none;
+}
+.cnabtn{
+    display: none;
+}
+.login-area .email .ds-input::placeholder{
+    opacity: 0;
+}
+.login-area .password .ds-input::placeholder{
+    opacity: 0;
+}
+
+
+
